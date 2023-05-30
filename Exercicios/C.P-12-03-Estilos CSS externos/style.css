@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(26, 209, 209);
+}
+
+h1{
+    color: rgb(221, 162, 14);
+    font-weight: bolder;
+    background-color: rgb(224, 187, 161) ;
+}
+
+h2{ 
+    color: darkgoldenrod;
+    font-weight: bolder;
+    background-color: rgb(224, 187, 161);
+}
+
+p{
+    color: rgb(75, 27, 27);
+    font-weight: bolder;
+}

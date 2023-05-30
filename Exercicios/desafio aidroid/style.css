@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body{
+    background-color: #ebe5c5;
+}
+
+header{
+    background-image:linear-gradient(to bottom,  #2dac66,#01250f);
+    color: white;
+    height: 120px;
+    text-align: center;
+    padding: 50px;
+}
+
+header >h1{ 
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+header>p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgb(31, 30, 30);
+    font-size: 19px; 
+}
+
+nav{
+    padding: 15px;
+    background-color: #01250f;
+}
+
+.menus{
+    color: #75dfa4;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menus:hover{
+    color: #073519;
+    background-color: #4bc080;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+main{
+
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    margin: auto;
+    max-width: 800px;
+}
+
+article>h1{
+    font-family:'idroid';
+    color: #063D1E;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+article> h2{
+    font-family: 'idroid';
+    color: #1A5C37;
+    background-image:linear-gradient(to right,#84E1AD,#ffffff );
+    margin-bottom: 10px;
+}
+
+article>p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+article strong{
+    color: #1A5C37;
+}
+
+article a{
+    background-image:linear-gradient(to right,#83E1AD,#bff1c8);
+    text-decoration: none;
+    color: #1A5C37;
+    padding: 3px;
+    font-weight: 700;
+}
+
+article a::after{
+    content:'\00A0\1F517';
+}
+
+div{
+    text-align: center;
+}
+
+#video{
+    background-color:#063d1e ;
+    padding: 15px;
+    margin: 0px;
+    
+}
+
+aside>h1{
+    background-color: #1a5c37;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -25px;
+    margin-left: -5px;
+    margin-right: -5px;
+
+}
+
+aside{
+   
+    background-color: #83e1ad;
+    padding: 25px;
+    margin-top: 25px;
+    padding-right:5px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 6px black;
+
+}
+
+aside>ol{
+    padding: 40px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #063d1e;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+

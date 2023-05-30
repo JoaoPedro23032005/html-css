@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elementos</title>
+    <style>
+        a:active{
+            color: rgb(19, 54, 250);
+        }
+        a:visited{
+            color: rgb(141, 226, 43);
+
+        }
+
+        .romeu::after{
+            content: '☭';
+        }
+
+        .romeu::before{
+            content: '☭';
+               }
+    </style>
+</head>
+<body>
+    <h1 class="romeu">Personalizando Links</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/gustavoguanabara/html-css" target="_self" rel="external">Repositório do GitHub</a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/@CursoemVideo">Canal do Youtube</a>
+        </li>
+
+        <li><a class="romeu" href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/">Site do curso em video</a></li>
+        <li><a href="wwwredtube.com">olaaa</a></li>
+    </ul>
+</body>
+</html>
